@@ -19,8 +19,53 @@ The basic structure for a controller is :
 	class nameController extends appController{
 
 		public function index(){
-			echo('You're on the name Controller, calling the index method. Well Done!');
+			echo('You are on the name Controller, calling the index method. Well Done!');
 		}
 
 	}
 ```
+Then if you go to *yoursite.com/name/* this message will appear!
+
+##### Passing parameters :
+In your methods you can specify the parameters you want :
+```php
+<?php
+	namespace App\Controller;
+
+	class nameController extends appController{
+
+		public function index($param = null){
+			$param = is_null($param) ? '' : $param;
+			echo('You are on the name Controller, calling the index method. Well Done! Param : ' . $param);
+		}
+
+	}
+```
+**Put all your arguments with a default value because user can go to an url without passing parameters in this one!!!**
+
+##### Rendering a view (with parameters):
+Quiet simple!
+
+Create a file in *App/View*. E.g :
+```php
+<h1>Index view</h1>
+<p>Today the message is : <?= $message ?></p>
+```
+In your controller :
+```php
+<?php
+	namespace App\Controller;
+
+	class nameController extends appController{
+
+		public function index(){
+			//Same variable name as in the view file
+			$message = 'You are on the name Controller, calling the index method. Well Done!';
+		
+			//See documentation for compact function ;)
+			$this->render('index', compact('message'));
+		}
+
+	}
+```
+
