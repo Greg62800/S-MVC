@@ -1,5 +1,5 @@
 # S-MVC
-** A simple and personalizable PHP MVC framwork **
+**A simple and personalizable PHP MVC framwork**
 ### Usage :
 To start a website you only need to create some files in *App* directory and change config file in *Config* directory. You can also put your css, js in *Public* directory.
 
