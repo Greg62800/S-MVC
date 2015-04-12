@@ -128,7 +128,7 @@ Email me at hugopb82@gmail.com
 
 Follow me on twitter at https://twitter.com/hugopb82
 
-I'm not a professionnal developper, I made it for fun but it was hard and long to do this framework. Download the source code with this link and watch an ad for 5 seconds to help me : ToDo
+I'm not a professionnal developper, I made it for fun but it was hard and long to do this framework. Download the source code with this link and watch an ad for 5 seconds to help me : http://adf.ly/4694918/s-mvc
 
 You can also , if you want really help me, make a donation on paypal : https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DYEEWGNMNZMCJ
 
