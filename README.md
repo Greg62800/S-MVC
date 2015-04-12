@@ -1,6 +1,6 @@
 # S-MVC
 **A simple and personalizable PHP MVC framwork**
-### Usage :
+### Usage
 To start a website you only need to create some files in *App* directory and change config file in *Config* directory. You can also put your css, js in *Public* directory.
 
 ##### URLs :
@@ -43,7 +43,7 @@ In your methods you can specify the parameters you want :
 ```
 **Put all your arguments with a default value because user can go to an url without passing parameters in this one!!!**
 
-##### Rendering a view (with parameters):
+##### Rendering a view (with parameters) :
 Quiet simple!
 
 Create a file in *App/View*. E.g :
@@ -69,7 +69,7 @@ In your controller :
 	}
 ```
 
-##### Using models:
+##### Using models :
 Models file are in *App/Model* and must be called with *Model* at the end. E.g : *postModel.php*
 
 The basic model structure is :
